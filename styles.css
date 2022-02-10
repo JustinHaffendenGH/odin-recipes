@@ -1,31 +1,47 @@
 
+:root {
+    --padsize: 50px;
+    --h2fontsize: 30px;
+}
+
+
+
+
 .center {
     display: flex;    
-    flex-direction: column;    
-   
+    flex-direction: column;     
     
 }
+
+
+
+
 
 .one{
     display: flex;
     flex-direction: row;
-    
-    
+    padding: var(--padsize)    
 }
-
-
 
 .oneitemone {
    display: flex;
    flex: 1;
    align-items: center;
-   justify-content: center;
-   
+   justify-content:center;
+   font-size: 50px;
 }
 
 .oneitemtwo {
     display: flex;
-    flex: 1;
+    flex: 1; 
+    align-items: center;  
+    justify-content: center;    
+}
+
+img {
+    height: auto;
+    width: 350px;
+    border-radius: 10px;
 }
 
 
@@ -33,7 +49,7 @@
 .two{
     display: flex;
     flex-direction: row;
-    
+    padding: var(--padsize);    
 }
 
 .twoitemone {
@@ -41,38 +57,55 @@
     flex: 1;
     align-items: center;
     justify-content: center;
-    
+    font-size: var(--h2fontsize);    
  }
  
  .twoitemtwo {
      display: flex;
      flex: 1;
+     text-align: center;
+     align-items: center;
+     justify-content: center;
+     border: 1px solid black;     
+     border-radius: 5px;   
+     background-color:papayawhip;
  }
+
+
 
 
 
 .three{
     display: flex;
-    flex-direction: row;    
+    flex-direction: row;   
+    padding: var(--padsize)   
 }
 
 .threeitemone {
     display: flex;
-    flex: 1;
+    flex: 1;    
     align-items: center;
     justify-content: center;
-    
+    font-size: var(--h2fontsize);    
  }
  
  .threeitemtwo {
      display: flex;
-     flex: 1;
+     flex: 1;     
+     align-items: center;
+     justify-content: center;     
+     border: 1px solid black;
+     border-radius: 5px;  
+     background-color:papayawhip; 
  }
+
+
+
 
 .four{
     display: flex;
     flex-direction: row;
-    
+    padding: var(--padsize);    
 }
 
 .fouritemone {
@@ -80,18 +113,24 @@
     flex: 1;
     align-items: center;
     justify-content: center;
-    
+    font-size: var(--h2fontsize);    
  }
  
  .fouritemtwo {
      display: flex;
      flex: 1;
+     justify-content: center;
+     border: 1px solid black;
+     border-radius: 5px;   
+     background-color:papayawhip;
  }
+
+
 
 .five{
     display: flex;
     flex-direction: row;
-    
+    padding: var(--padsize)     
 }
 
 .fiveitemone {
@@ -99,43 +138,14 @@
     flex: 1;
     align-items: center;
     justify-content: center;
-    
+    font-size: var(--h2fontsize);    
  }
  
  .fiveitemtwo {
      display: flex;
      flex: 1;
+     border: 1px solid black;  
+     border-radius: 5px;   
+     background-color:papayawhip;
  }
 
-.six{
-    display: flex;
-    flex-direction: row;    
-}
-
-.sixitemone {
-    display: flex;
-    flex: 1;
-    align-items: center;
-    justify-content: center;
-    
- }
- 
- .sixitemtwo {
-     display: flex;
-     flex: 1;
- }
-
-
-img {
-    display: flex;
-    flex-direction: row;
-    
-}
-
-h1 {
-
-}
-
-h2 {
-    text-decoration: underline;
-}
