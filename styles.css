@@ -1,0 +1,141 @@
+
+.center {
+    display: flex;    
+    flex-direction: column;    
+   
+    
+}
+
+.one{
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+
+
+.oneitemone {
+   display: flex;
+   flex: 1;
+   align-items: center;
+   justify-content: center;
+   
+}
+
+.oneitemtwo {
+    display: flex;
+    flex: 1;
+}
+
+
+
+.two{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.twoitemone {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    
+ }
+ 
+ .twoitemtwo {
+     display: flex;
+     flex: 1;
+ }
+
+
+
+.three{
+    display: flex;
+    flex-direction: row;    
+}
+
+.threeitemone {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    
+ }
+ 
+ .threeitemtwo {
+     display: flex;
+     flex: 1;
+ }
+
+.four{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.fouritemone {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    
+ }
+ 
+ .fouritemtwo {
+     display: flex;
+     flex: 1;
+ }
+
+.five{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.fiveitemone {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    
+ }
+ 
+ .fiveitemtwo {
+     display: flex;
+     flex: 1;
+ }
+
+.six{
+    display: flex;
+    flex-direction: row;    
+}
+
+.sixitemone {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    
+ }
+ 
+ .sixitemtwo {
+     display: flex;
+     flex: 1;
+ }
+
+
+img {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+h1 {
+
+}
+
+h2 {
+    text-decoration: underline;
+}
